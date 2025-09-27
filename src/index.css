@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Estimate Module Design System (HEX version) */
+
+@layer base {
+    :root {
+        --background: #fafafa;
+        --foreground: #1e293b;
+
+        --card: #ffffff;
+        --card-foreground: #1e293b;
+
+        --popover: #ffffff;
+        --popover-foreground: #1e293b;
+
+        --primary: #3b82f6; /* Blue-500 */
+        --primary-foreground: #ffffff;
+
+        --secondary: #f3f4f6; /* Gray-100 */
+        --secondary-foreground: #1e293b;
+
+        --muted: #f3f4f6;
+        --muted-foreground: #6b7280;
+
+        --accent: #1e293b;
+        --accent-foreground: #ffffff;
+
+        --destructive: #ef4444; /* Red-500 */
+        --destructive-foreground: #ffffff;
+
+        --border: #e5e7eb; /* Gray-200 */
+        --input: #e5e7eb;
+        --ring: #3b82f6;
+
+        /* Estimate specific tokens */
+        --estimate-header: #3b82f6;
+        --estimate-header-foreground: #ffffff;
+        --estimate-section: #f3f4f6;
+        --estimate-section-border: #e5e7eb;
+        --estimate-item-hover: #e0f2fe;
+        --estimate-total: #22c55e; /* Green-500 */
+        --estimate-total-foreground: #ffffff;
+        --estimate-editable: #fef9c3; /* Yellow-100 */
+        --estimate-editable-focus: #fde047; /* Yellow-300 */
+
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
