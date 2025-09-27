@@ -42,7 +42,7 @@ npm run preview
 
 Dashboard Overview
 
-On login, users see a dashboard with key metrics and summary values.
+ users see a dashboard with key metrics and summary values.
 
 Estimate Module
 
